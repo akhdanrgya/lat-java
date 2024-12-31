@@ -5,7 +5,7 @@ package com.dasar;
 
 class Mahasiswa{
     String nama;
-    String NIM;
+    int NIM;
     String jurusan;
     double ipk;
     int umur;
@@ -19,7 +19,7 @@ public class Main {
 
         Mahasiswa mahasiswa1 = new Mahasiswa();
         mahasiswa1.nama = "ucup";
-        mahasiswa1.NIM = "123123123";
+        mahasiswa1.NIM = 123123123;
         mahasiswa1.jurusan = "teknik komputer";
         mahasiswa1.ipk = 4.0;
         mahasiswa1.umur = 18;
